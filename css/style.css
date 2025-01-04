@@ -97,7 +97,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #262E80;
 }
 
 .navbar .dropdown-toggle::after {
@@ -141,7 +141,7 @@
 
 .navbar .btn:hover {
     color: #FFFFFF !important;
-    background: var(--primary) !important;
+    background: #262E80 !important;
 }
 
 
@@ -302,7 +302,7 @@
     display: inline-flex;
     align-items: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: #262E80;
     border-radius: 38px;
     white-space: nowrap;
     overflow: hidden;
@@ -560,7 +560,7 @@
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: #262E80;
     letter-spacing: 1px;
     box-shadow: none;
 }
