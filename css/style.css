@@ -600,6 +600,15 @@
 }
 
 
+/* Contact zone */
+.fact {
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
 /*** Footer ***/
 .footer .btn.btn-link {
     display: block;
