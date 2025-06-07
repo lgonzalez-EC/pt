@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #65B530;
+    --primary: #000000;
     --secondary: #9B9B9B;
     --light: #F5F5F5;
     --dark: #161616;
@@ -25,7 +25,7 @@
     right: 20px;
     width: 50px;
     height: 50px;
-    background-color: #00296b;
+    background-color: #000307;
     color: white;
     border: none;
     border-radius: 50%;
@@ -139,10 +139,16 @@
 }
 
 /*** Navbar ***/
+.navbar {
+    background: #ffffffe1;
+    transition:  0.5s;
+}
+
 .navbar.sticky-top {
     top: -100px;
     transition: .5s;
 }
+
 
 .navbar .navbar-brand {
     height: 75px;
@@ -201,7 +207,7 @@
 }
 
 .navbar .btn:hover {
-    color: #FFFFFF !important;
+    color: #ffffff5e !important;
     background: #262E80 !important;
 }
 
@@ -350,14 +356,14 @@
 
 /*** Service ***/
 .service-row {
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.205);
 }
 
 .service-item {
-    border-color: rgba(0, 0, 0, .03) !important;
+    border-color: rgba(0, 0, 0, 0.26) !important;
 }
 
-.service-item .btn {
+/* .service-item .btn {
     width: 38px;
     height: 38px;
     display: inline-flex;
@@ -372,7 +378,7 @@
 
 .service-item:hover .btn {
     width: 140px;
-}
+} */
 
 
 /*** Feature ***/
